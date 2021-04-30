@@ -135,6 +135,60 @@ p {
     align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .search {
+        padding: 1rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size: 0.8rem;
+        background: rgba(250, 250, 250, 0.85);
+    }
+    form .submit-btn {
+        font-size: 1rem;
+        border-bottom-right-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        font-size: 500;
+        padding: 0 0.9rem;
+        box-shadow: rgb(8, 121, 121) 0px 1px 5px;
+    }
+    .city {
+        padding: 1.2rem 0.4rem;
+        box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+    }
+
+    .city-temp {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #1e2432;
+        text-align: center;
+    }
+
+    .city sup {
+        font-size: 0.5em;
+    }
+    .city p {
+        font-size: 0.8rem;
+    }
+    .city-name {
+        font-size: 1.5em;
+    }
+
+    .city-name sup {
+        padding: 0.2em 0.6em;
+        margin-left: 0.2em;
+        border-radius: 30px;
+        color: #fff;
+        background: #ff8c00;
+    }
+
+    .city-icon {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .search {
         padding: 20px 15%;
