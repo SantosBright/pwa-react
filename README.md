@@ -12,6 +12,8 @@ simple weather app built with react and some pwa features
 
 ## demo
 
+There is the demo link to the app [https://main-weather.netlify.app/](https://main-weather.netlify.app/)
+
 ### landing page
 
 So, this is just a simple page with a search input, just enter any city and see the weather info
