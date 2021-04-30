@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+simple weather app built with react and some pwa features
 
-## Available Scripts
+-   [x] works offline or has a customize offline instead of default browser offline scree
+-   [x] can be installed on all devices i.e andriod, ios, mac...
+-   [x] uses a simple cahcing technique
+-   [x] service worker
+-   [x] web app manifest
+-   [x] splash screen when runing as standalone app
+-   [x] apple, web, fav icons
 
-In the project directory, you can run:
+## demo
 
-### `yarn start`
+### landing page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So, this is just a simple page with a search input, just enter any city and see the weather info
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![starting page](demo/start.png)
 
-### `yarn test`
+### loading data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+the spinner here shows as long data is still fetching and has not been resolved
 
-### `yarn build`
+![loading data](demo/loading.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### finish loading data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![loaded data](demo/loaded.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### fetching error or 404
 
-### `yarn eject`
+This is incase your enter city cannot be found
+![error page](demo/not-found.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## demo on mobile
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![error page](demo/mobile-load.jpeg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![error page](demo/mobile-loaded.jpeg)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![error page](demo/mobile-not-found.png)
 
-## Learn More
+## installing the web app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can simply install the webpage on any device, it does not take time or data like installing an app form play store, just like a second and I don't think it requires data as long the webpage has been loaded
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### If you are on a Pc installing is as simple as
 
-### Code Splitting
+-   Go to the top right side of your browser search bar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ![installing](demo/installable.png)
 
-### Analyzing the Bundle Size
+-   Click on the icon that looks like a download or install icon(varies depend on OS and browser)
+-   Click install on the install prompt and you are done, app will now appear on your home screen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ![install prompt](demo/install-prompt.png)
 
-### Making a Progressive Web App
+### installing on mobile is as simply as am using chrome on mobile but the steps should not any different in other browser. And by way, installing would work on light weight browsers like opera mini
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-   On the right top part of your browser click on the three dots to open a menu
 
-### Advanced Configuration
+    ![install prompt](demo/first-step.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   Then scroll down a little on the menu and click on add to home screen
 
-### Deployment
+    ![install prompt](demo/second.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-   Now you will see a prompt, give it any name you what or just leave the default
 
-### `yarn build` fails to minify
+    ![install prompt](demo/third.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Now you will see another prompt click on add
+
+    ![install prompt](demo/fourth.jpeg)
+
+-   Go to home screen and see the added app
+
+    ![install prompt](demo/done.jpeg)
+
+-   Now click and open just like any other app
+
+    ![install prompt](demo/open.jpeg)
+
+-   Now site is runing standalone
+
+    ![install prompt](demo/proof.jpeg)
